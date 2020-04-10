@@ -41,7 +41,7 @@
     </distributionManagement>
 
     <properties>
-        <tomcat.version>9.0.33</tomcat.version>
+        <tomcat.version>9.0.34</tomcat.version>
         <download-plugin.version>1.5.0</download-plugin.version>
     </properties>
 
