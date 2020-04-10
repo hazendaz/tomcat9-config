@@ -45,7 +45,6 @@
     </properties>
 
     <dependencies>
-        <!-- Trick to have dependabot alert on updates to ant -->
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat</artifactId>
