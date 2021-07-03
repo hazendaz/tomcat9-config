@@ -26,7 +26,7 @@
 
     <groupId>com.github.hazendaz.tomcat</groupId>
     <artifactId>tomcat9-config</artifactId>
-    <version>9.0.49-SNAPSHOT</version>
+    <version>9.0.50-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>tomcat9-config</name>
@@ -56,7 +56,7 @@
     </distributionManagement>
 
     <properties>
-        <tomcat.version>9.0.48</tomcat.version>
+        <tomcat.version>9.0.50</tomcat.version>
     </properties>
 
     <dependencies>
