@@ -192,7 +192,8 @@ else
       wrapperUrl="https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.1.1/maven-wrapper-3.1.1.jar"
     fi
     while IFS="=" read key value; do
-      case "$key" in (wrapperUrl) wrapperUrl="$value"; break ;;
+      # Remove invalid line endings from value
+      case "$key" in (wrapperUrl) wrapperUrl="${value%$'\r'}"; break ;;
       esac
     done < "$BASE_DIR/.mvn/wrapper/maven-wrapper.properties"
     if [ "$MVNW_VERBOSE" = true ]; then
