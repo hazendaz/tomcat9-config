@@ -27,7 +27,7 @@
 
     <groupId>com.github.hazendaz.tomcat</groupId>
     <artifactId>tomcat9-config</artifactId>
-    <version>9.0.109-SNAPSHOT</version>
+    <version>9.0.109</version>
     <packaging>pom</packaging>
 
     <name>tomcat9-config</name>
@@ -45,7 +45,7 @@
     <scm>
         <connection>scm:git:ssh://git@github.com/hazendaz/tomcat9-config.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/hazendaz/tomcat9-config.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>tomcat9-config-9.0.109</tag>
         <url>https://github.com/hazendaz/tomcat9-config</url>
     </scm>
     <distributionManagement>
