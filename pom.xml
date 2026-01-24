@@ -20,7 +20,7 @@
 
     <groupId>com.github.hazendaz.tomcat</groupId>
     <artifactId>tomcat9-config</artifactId>
-    <version>9.0.114-SNAPSHOT</version>
+    <version>9.0.115-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>tomcat9-config</name>
