@@ -49,7 +49,7 @@
     </distributionManagement>
 
     <properties>
-        <tomcat.version>9.0.118</tomcat.version>
+        <tomcat.version>9.0.119</tomcat.version>
     </properties>
 
     <dependencies>
